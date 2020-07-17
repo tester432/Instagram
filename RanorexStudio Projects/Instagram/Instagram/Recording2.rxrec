@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="419e9949-cf79-437a-a235-3eabbcdb1445"
-mode="Desktop">
+id="3f1b8e93-380f-4a05-a370-046ce6034b34"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -19,15 +19,10 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
+	classname="Recording2"
 	namespace="Instagram">
 	</codegen>
 	<variables>
-		<var
-		id="5626d3d6-e8b7-42c4-8e59-41b745b6fa9c"
-		name="Suchen">
-			leandrolevin
-		</var>
 	</variables>
 	<recorditems>
 	</recorditems>
@@ -46,7 +41,7 @@ mode="Desktop">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		Recording2.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
