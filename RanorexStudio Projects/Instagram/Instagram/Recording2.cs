@@ -24,45 +24,34 @@ namespace Instagram
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The Recording2 recording.
     /// </summary>
-    [TestModule("419e9949-cf79-437a-a235-3eabbcdb1445", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("3f1b8e93-380f-4a05-a370-046ce6034b34", ModuleType.Recording, 1)]
+    public partial class Recording2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the InstagramRepository repository.
         /// </summary>
         public static InstagramRepository repo = InstagramRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Recording2 instance = new Recording2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Recording2()
         {
-            Suchen = "leandrolevin";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Recording2 Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        /// <summary>
-        /// Gets or sets the value of variable Suchen.
-        /// </summary>
-        [TestVariable("5626d3d6-e8b7-42c4-8e59-41b745b6fa9c")]
-        public string Suchen
-        {
-            get { return repo.Suchen; }
-            set { repo.Suchen = value; }
-        }
 
 #endregion
 
