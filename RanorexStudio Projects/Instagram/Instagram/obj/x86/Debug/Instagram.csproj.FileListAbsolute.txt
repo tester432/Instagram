@@ -1,0 +1,10 @@
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.rxtmg
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.rxtst
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.exe.config
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.xml
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.exe
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Instagram.pdb
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\obj\x86\Debug\Instagram.csprojResolveAssemblyReference.cache
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\obj\x86\Debug\Instagram.exe
+C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\obj\x86\Debug\Instagram.pdb

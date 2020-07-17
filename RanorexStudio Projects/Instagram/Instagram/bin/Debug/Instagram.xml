@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Instagram</name>
+    </assembly>
+    <members>
+        <member name="T:Instagram.InstagramRepository">
+            <summary>
+            The class representing the InstagramRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the InstagramRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepository.Suchen">
+            <summary>
+            Gets or sets the value of variable Suchen.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.Registration">
+            <summary>
+            The Registration folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.ApplicationUnderTestAppFolder.Follow">
+            <summary>
+            The Follow folder.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.RegistrationFolder">
+            <summary>
+            The RegistrationFolder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.RegistrationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Registration  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.RegistrationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.RegistrationFolder.Page_1">
+            <summary>
+            The Page_1 folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.RegistrationFolder.Page_2">
+            <summary>
+            The Page_2 folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.RegistrationFolder.Page_3">
+            <summary>
+            The Page_3 folder.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.Page_1Folder">
+            <summary>
+            The Page_1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.Page_1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Page_1  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.Registrieren">
+            <summary>
+            The Registrieren item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.RegistrierenInfo">
+            <summary>
+            The Registrieren item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.Weiter">
+            <summary>
+            The Weiter item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.WeiterInfo">
+            <summary>
+            The Weiter item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.EmailOrPhone">
+            <summary>
+            The EmailOrPhone item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.EmailOrPhoneInfo">
+            <summary>
+            The EmailOrPhone item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.FullName">
+            <summary>
+            The FullName item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_1Folder.FullNameInfo">
+            <summary>
+            The FullName item info.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.Page_2Folder">
+            <summary>
+            The Page_2Folder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.Page_2Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Page_2  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.Jahr">
+            <summary>
+            The Jahr item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.JahrInfo">
+            <summary>
+            The Jahr item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.Monat">
+            <summary>
+            The Monat item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.MonatInfo">
+            <summary>
+            The Monat item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.Tag">
+            <summary>
+            The Tag item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_2Folder.TagInfo">
+            <summary>
+            The Tag item info.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.Page_3Folder">
+            <summary>
+            The Page_3Folder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.Page_3Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Page_3  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_3Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_3Folder.EmailConfirmationCode">
+            <summary>
+            The EmailConfirmationCode item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.Page_3Folder.EmailConfirmationCodeInfo">
+            <summary>
+            The EmailConfirmationCode item info.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.LoginFolder">
+            <summary>
+            The LoginFolder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.LoginFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.Anmelden">
+            <summary>
+            The Anmelden item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.LoginFolder.AnmeldenInfo">
+            <summary>
+            The Anmelden item info.
+            </summary>
+        </member>
+        <member name="T:Instagram.InstagramRepositoryFolders.FollowFolder">
+            <summary>
+            The FollowFolder folder.
+            </summary>
+        </member>
+        <member name="M:Instagram.InstagramRepositoryFolders.FollowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Follow  folder.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.Leandrolevin">
+            <summary>
+            The Leandrolevin item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.LeandrolevinInfo">
+            <summary>
+            The Leandrolevin item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.Folgen">
+            <summary>
+            The Folgen item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.FolgenInfo">
+            <summary>
+            The Folgen item info.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:Instagram.InstagramRepositoryFolders.FollowFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Modules.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::Instagram.InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Modules.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Modules.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.Follow">
+             <summary>
+            The Follow recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Modules.Follow.repo">
+            <summary>
+            Holds an instance of the global::Instagram.InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Follow.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Follow.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Modules.Follow.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Follow.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Modules.Follow.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.Follow.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.Follow.Suchen">
+            <summary>
+            Gets or sets the value of variable Suchen.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Modules.Login.repo">
+            <summary>
+            Holds an instance of the global::Instagram.InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Modules.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Modules.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Modules.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::Instagram.InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Modules.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Modules.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.Registration">
+             <summary>
+            The Registration recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Modules.Registration.repo">
+            <summary>
+            Holds an instance of the global::Instagram.InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Registration.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Registration.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Modules.Registration.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.Registration.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Modules.Registration.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Modules.Registration.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Instagram.Modules.SmokeTest">
+            <summary>
+            Description of SmokeTest.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.SmokeTest.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Modules.SmokeTest.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Instagram.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Instagram.Recording1.repo">
+            <summary>
+            Holds an instance of the InstagramRepository repository.
+            </summary>
+        </member>
+        <member name="M:Instagram.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Instagram.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Instagram.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Instagram.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Instagram.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Instagram.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Instagram.Recording1.Suchen">
+            <summary>
+            Gets or sets the value of variable Suchen.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

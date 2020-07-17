@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.58s"
+		durationms="8577"
+		type="root"
+		rid="b1533024e73dcd6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="17.07.2020 18:23:48"
+		timestampiso="2020-07-17T16:23:48"
+		endtime="17.07.2020 18:23:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.089"
+			timeRelativeToTestModuleStartTime="00:05.089"
+			timeWallClock="18:23:53"
+			time="00:05.089"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwInstagramCom.Username' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//div[#'react-root']/section/?/?/article//form[@action='https://www.instagram.com/']/div[2]//input[@name='username']"
+				itempath="div[2]//input[@name='username']"
+				fullname="InstagramRepository.ApplicationUnderTest.HttpsWwwInstagramCom.Username"
+				id="59070ef5a35d428785711a0f0ef18b1a"
+				timeout="90000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.705"
+			timeRelativeToTestModuleStartTime="00:06.705"
+			timeWallClock="18:23:55"
+			time="00:06.705"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'test@test.de' with focus on 'ApplicationUnderTest.HttpsWwwInstagramCom.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//div[#'react-root']/section/?/?/article//form[@action='https://www.instagram.com/']/div[2]//input[@name='username']"
+				itempath="div[2]//input[@name='username']"
+				fullname="InstagramRepository.ApplicationUnderTest.HttpsWwwInstagramCom.Username"
+				id="59070ef5a35d428785711a0f0ef18b1a"
+				timeout="90000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.182"
+			timeRelativeToTestModuleStartTime="00:07.182"
+			timeWallClock="18:23:55"
+			time="00:07.182"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwInstagramCom.Password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//div[#'react-root']/section/?/?/article//form[@action='https://www.instagram.com/']/div[3]//input[@name='password']"
+				itempath="div[3]//input[@name='password']"
+				fullname="InstagramRepository.ApplicationUnderTest.HttpsWwwInstagramCom.Password"
+				id="d57274a05f94458982370d0567c0943f"
+				timeout="90000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.736"
+			timeRelativeToTestModuleStartTime="00:07.736"
+			timeWallClock="18:23:56"
+			time="00:07.736"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Pass123' with focus on 'ApplicationUnderTest.HttpsWwwInstagramCom.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//div[#'react-root']/section/?/?/article//form[@action='https://www.instagram.com/']/div[3]//input[@name='password']"
+				itempath="div[3]//input[@name='password']"
+				fullname="InstagramRepository.ApplicationUnderTest.HttpsWwwInstagramCom.Password"
+				id="d57274a05f94458982370d0567c0943f"
+				timeout="90000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.070"
+			timeRelativeToTestModuleStartTime="00:08.070"
+			timeWallClock="18:23:56"
+			time="00:08.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.HttpsWwwInstagramCom.DivTag4EzTmBkEs3CovQjDhRcBEGOVIgw' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//div[#'react-root']/section/?/?/article//form[@action='https://www.instagram.com/']/div[4]"
+				itempath="div[4]"
+				fullname="InstagramRepository.ApplicationUnderTest.HttpsWwwInstagramCom.DivTag4EzTmBkEs3CovQjDhRcBEGOVIgw"
+				id="9c4588bcd9c14760bb257b8a89f1964a"
+				timeout="90000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

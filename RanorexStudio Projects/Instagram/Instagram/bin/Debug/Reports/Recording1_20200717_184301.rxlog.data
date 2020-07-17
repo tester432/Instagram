@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.17s"
+		durationms="6173"
+		type="root"
+		rid="39d0f2656bcb957b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="17.07.2020 18:43:03"
+		timestampiso="2020-07-17T16:43:03"
+		endtime="17.07.2020 18:43:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.695"
+			timeRelativeToTestModuleStartTime="00:04.695"
+			timeWallClock="18:43:08"
+			time="00:04.695"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '9' on item 'ApplicationUnderTest.Registration.Page_2.Monat'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?/?/?/?//select[@title='Monat:']"
+				itempath=".//?/?/?/?/?/?/?/?/?/?//select[@title='Monat:']"
+				fullname="InstagramRepository.ApplicationUnderTest.Registration.Page_2.Monat"
+				id="565ae0d7bc124e03b0bac6a197c94b20"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="82"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.001"
+			timeRelativeToTestModuleStartTime="00:06.001"
+			timeWallClock="18:43:09"
+			time="00:06.001"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '3' on item 'ApplicationUnderTest.Registration.Page_2.Tag'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?/?/?/?//select[@title='Tag:']"
+				itempath=".//?/?/?/?/?/?/?/?/?/?//select[@title='Tag:']"
+				fullname="InstagramRepository.ApplicationUnderTest.Registration.Page_2.Tag"
+				id="2ee19b9bc8264aef9ac54ff946bff023"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="86"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.086"
+			timeRelativeToTestModuleStartTime="00:06.086"
+			timeWallClock="18:43:09"
+			time="00:06.086"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '2001' on item 'ApplicationUnderTest.Registration.Page_2.Jahr'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?/?/?/?//select[@title='Jahr:']"
+				itempath=".//?/?/?/?/?/?/?/?/?/?//select[@title='Jahr:']"
+				fullname="InstagramRepository.ApplicationUnderTest.Registration.Page_2.Jahr"
+				id="928c3ad2ff5a42de8c09c7519d7a90ed"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="90"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

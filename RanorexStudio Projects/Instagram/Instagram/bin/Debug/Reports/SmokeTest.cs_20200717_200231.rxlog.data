@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.28s"
+		durationms="10283"
+		type="root"
+		rid="867ba4ab905f54"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="17.07.2020 20:02:35"
+		timestampiso="2020-07-17T18:02:35"
+		endtime="17.07.2020 20:02:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SmokeTest">
+		<detail>
+			SmokeTest
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

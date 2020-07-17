@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="InstagramRepository.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="InstagramRepository.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

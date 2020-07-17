@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1c450e28-e839-43d6-ab98-35b4b3acf948"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Follow"
+	namespace="Instagram.Modules">
+	</codegen>
+	<variables>
+		<var
+		id="2ec227ed-dbe0-4e8d-9af8-1a70eca8df7d"
+		name="Suchen">
+			leandrolevin
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c9fd2b4e-ed3e-4406-86a4-ed022272da6d"
+		sx="2849"
+		sy="99"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b87c3692-823a-4fc5-9f00-b8266ad637f3"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="2767,89,199,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						eyXLr wUAXj&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						eyXLr wUAXj
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.instagram.com']//div[#'react-root']/section/nav/div[2]/div/div/div[2]/?/?/div
+				</path>
+			</info>
+			<helperscreenshot
+			guid="66d101ed-d815-4237-8f43-2fc1404368ea">
+				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
+oAKKKKACiiigAooooAKKKKACiiigD//Z
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="4005cfc2-dcfe-4dc7-913c-d51f49afe97f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Suchen">
+				</binding>
+			</bindings>
+			<info
+			id="184468bf-13b3-4731-9ba0-3a6abcd2c61d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.instagram.com']//?/?/?//input[@type='text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="45c43aef-bc83-4004-843f-a7419864b881"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a1b4435a-d3dd-471c-b457-76f142d98088"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?/?/?/?/?/?//span[@innertext=$Suchen]
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="857af3d6-cb3c-43d0-9b3a-8934c840d8dd"
+		sx="2839"
+		sy="159"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a1b4435a-d3dd-471c-b457-76f142d98088"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="2808,144,78,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						Ap253
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						leandrolevin
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						Ap253
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.instagram.com']//div[#'react-root']/section/nav/div[2]/div/div/div[2]/div[3]/?/?/div/a[1]//span[@innertext='leandrolevin']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="803f9b88-da2a-4249-8e11-9e27ded89762">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1eeff0c1-6464-4935-ac43-fc57b0b1ad2e"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ef22320d-ff40-4af6-aacd-27342947b90a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.instagram.com']//?/?//?/?/?/?/h2[@innertext=$Suchen]
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6b5870ea-c53b-4fc8-84e1-295fbf41d07d"
+		sx="2931"
+		sy="171"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="432d0a85-1b99-4493-82ad-ec35a5fe72db"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="buttontag"
+				rect="2888,160,63,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						BY3EC  sqdOP  L3NKy   y3zKF    &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Folgen
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						BY3EC L3NKy sqdOP y3zKF
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.instagram.com']//div[#'react-root']/section//header/section/?/?/button[@innertext='Folgen']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e366761f-b33e-4d15-be90-ea8cc12ed3c8">
+				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
+AooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9457a6f2-2804-44ab-8b2b-13bfec022e97"
+	name="InstagramRepository"
+	relativepath="..\InstagramRepository.rxrep">
+		<codegen
+		classname="InstagramRepository"
+		namespace="Instagram">
+		</codegen>
+		<rootfolder
+		id="deaff906-203b-4c21-a8dd-a3ae7976901d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Follow.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

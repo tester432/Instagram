@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.8s"
+		durationms="8801"
+		type="root"
+		rid="2e9cfd1ba0d1d47"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="17.07.2020 19:36:45"
+		timestampiso="2020-07-17T17:36:45"
+		endtime="17.07.2020 19:36:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Follow">
+		<detail>
+			Follow
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.513"
+			timeRelativeToTestModuleStartTime="00:05.513"
+			timeWallClock="19:36:51"
+			time="00:05.513"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Suchen
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.544"
+			timeRelativeToTestModuleStartTime="00:05.544"
+			timeWallClock="19:36:51"
+			time="00:05.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Follow.Search' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?//span[@innertext='Suchen']"
+				itempath=".//?/?/?/?/?/?/?//span[@innertext='Suchen']"
+				fullname="InstagramRepository.ApplicationUnderTest.Follow.Search"
+				id="b87c3692823a4fc59f00b8266ad637f3"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Modules\Follow.cs"
+				codeline="93"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.460"
+			timeRelativeToTestModuleStartTime="00:06.460"
+			timeWallClock="19:36:52"
+			time="00:06.460"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Suchen' with focus on 'ApplicationUnderTest.Follow.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?//input[@type='text']"
+				itempath=".//?/?/?//input[@type='text']"
+				fullname="InstagramRepository.ApplicationUnderTest.Follow.Text"
+				id="184468bf13b347319ba03a6abcd2c61d"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Modules\Follow.cs"
+				codeline="97"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.856"
+			timeRelativeToTestModuleStartTime="00:06.856"
+			timeWallClock="19:36:52"
+			time="00:06.856"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Follow.Leandrolevin' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?/?/?/?/?/?/?/?/?/?/?//span[@innertext='leandrolevin']"
+				itempath=".//?/?/?/?/?/?/?/?/?/?/?/?//span[@innertext=$Suchen]"
+				fullname="InstagramRepository.ApplicationUnderTest.Follow.Leandrolevin"
+				id="a1b4435ad3dd471cb45776f142d98088"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Modules\Follow.cs"
+				codeline="101"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.014"
+			timeRelativeToTestModuleStartTime="00:08.014"
+			timeWallClock="19:36:53"
+			time="00:08.014"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.Follow.Username'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?//?/?/?/?/h2[@innertext='leandrolevin']"
+				itempath=".//?/?//?/?/?/?/h2[@innertext=$Suchen]"
+				fullname="InstagramRepository.ApplicationUnderTest.Follow.Username"
+				id="ef22320dff404af6aacd27342947b90a"
+				timeout="5000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Modules\Follow.cs"
+				codeline="105"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.243"
+			timeRelativeToTestModuleStartTime="00:08.243"
+			timeWallClock="19:36:54"
+			time="00:08.243"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Follow.Folgen' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?//?/?/?/?/button[@innertext='Folgen']"
+				itempath=".//?/?//?/?/?/?/button[@innertext='Folgen']"
+				fullname="InstagramRepository.ApplicationUnderTest.Follow.Folgen"
+				id="432d0a851b99449382adec35a5fe72db"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Modules\Follow.cs"
+				codeline="108"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

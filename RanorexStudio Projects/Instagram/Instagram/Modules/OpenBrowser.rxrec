@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0bbc8d2b-46d3-4342-8458-5d750cc1e916"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="Instagram.Modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.instagram.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="9457a6f2-2804-44ab-8b2b-13bfec022e97"
+	name="InstagramRepository"
+	relativepath="..\InstagramRepository.rxrep">
+		<codegen
+		classname="InstagramRepository"
+		namespace="Instagram">
+		</codegen>
+		<rootfolder
+		id="deaff906-203b-4c21-a8dd-a3ae7976901d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

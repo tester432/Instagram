@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.49s"
+		durationms="5489"
+		type="root"
+		rid="2506a30ac9b8961d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="17.07.2020 18:47:23"
+		timestampiso="2020-07-17T16:47:23"
+		endtime="17.07.2020 18:47:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.557"
+			timeRelativeToTestModuleStartTime="00:04.557"
+			timeWallClock="18:47:28"
+			time="00:04.557"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Registration.Page_1.Weiter' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.instagram.com']//?/?//?//?/?/?/?/button[@innertext='Weiter']"
+				itempath=".//?/?//?//?/?/?/?/button[@innertext='Weiter']"
+				fullname="InstagramRepository.ApplicationUnderTest.Registration.Page_1.Weiter"
+				id="12f17e8e6dab448cafead988f3ee4b61"
+				timeout="60000"
+				codefile="c:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\Instagram\Instagram\Recording1.cs"
+				codeline="82"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="58df2990-b1c4-40b3-b090-da41f8b72082"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Instagram.Modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="4d366956-84b0-44ca-b0e9-370826d52b5c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6b75073c-635a-4c76-b035-7d8552f80afb"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="9457a6f2-2804-44ab-8b2b-13bfec022e97"
+	name="InstagramRepository"
+	relativepath="..\InstagramRepository.rxrep">
+		<codegen
+		classname="InstagramRepository"
+		namespace="Instagram">
+		</codegen>
+		<rootfolder
+		id="deaff906-203b-4c21-a8dd-a3ae7976901d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
