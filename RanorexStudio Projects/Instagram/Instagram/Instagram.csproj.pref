@@ -1,12 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Recording2.rxrec" />
+    <Element value="Instagram.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="InstagramRepository.cs" />
-    <Element value="Recording1.rxrec" />
-    <Element value="Recording2.rxrec" />
+    <Element value="Instagram.rxtst" />
+    <Element value="Modules\OpenBrowser.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />
