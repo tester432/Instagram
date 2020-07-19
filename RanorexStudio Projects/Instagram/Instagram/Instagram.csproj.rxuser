@@ -103,5 +103,23 @@
 			lastcodegentimestamp="132394847292486709">
 			</codegenfilechangeinfo>
 		</codegenfilechangeinfo>
+		<codegenfilechangeinfo
+		changehash="8284ae56-0000-0000-4d85-83db0bcebaa7"
+		fileitemid="a4528f0b-aa12-4f35-8de7-ec613feb3a83"
+		filelength="950"
+		lastcodegentimestamp="132396334974970914">
+			<codegenfilechangeinfo
+			changehash="ed1a1abc-ffff-ffff-0000-000000000000"
+			fileitemid="9dad54b4-de07-4ef1-9e26-7191e1004200"
+			filelength="2782"
+			lastcodegentimestamp="132396334974970914">
+			</codegenfilechangeinfo>
+			<codegenfilechangeinfo
+			changehash="f8530da9-ffff-ffff-0000-000000000000"
+			fileitemid="88f2e927-8a61-4eae-abb7-9bca39748642"
+			filelength="1114"
+			lastcodegentimestamp="132396334974970914">
+			</codegenfilechangeinfo>
+		</codegenfilechangeinfo>
 	</changestatecache>
 </projectusersettings>

@@ -557,27 +557,27 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="T:Instagram.Recording1">
+        <member name="T:Instagram.Recording2">
              <summary>
-            The Recording1 recording.
+            The Recording2 recording.
              </summary>
         </member>
-        <member name="F:Instagram.Recording1.repo">
+        <member name="F:Instagram.Recording2.repo">
             <summary>
             Holds an instance of the InstagramRepository repository.
             </summary>
         </member>
-        <member name="M:Instagram.Recording1.#ctor">
+        <member name="M:Instagram.Recording2.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:Instagram.Recording1.Start">
+        <member name="M:Instagram.Recording2.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:Instagram.Recording1.Instance"/>.
+            Starts the replay of the static recording <see cref="P:Instagram.Recording2.Instance"/>.
             </summary>
         </member>
-        <member name="M:Instagram.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:Instagram.Recording2.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -585,20 +585,15 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:Instagram.Recording1.Init">
+        <member name="M:Instagram.Recording2.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Instagram.Recording1.Instance">
+        <member name="P:Instagram.Recording2.Instance">
             <summary>
             Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:Instagram.Recording1.Suchen">
-            <summary>
-            Gets or sets the value of variable Suchen.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">
