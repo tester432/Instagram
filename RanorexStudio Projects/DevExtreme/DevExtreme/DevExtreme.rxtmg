@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DevExtreme"
+      id="4939b803-a1a1-4007-b217-ca65e39401d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DevExtreme"
+      id="4939b803-a1a1-4007-b217-ca65e39401d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

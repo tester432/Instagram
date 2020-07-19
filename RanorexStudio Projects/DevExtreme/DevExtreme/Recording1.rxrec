@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="972cbd88-a795-4095-aed5-19b3f4046dcd"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="DevExtreme">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="052ac5ff-449e-471a-8acf-52e15dff5555"
+	name="DevExtremeRepository"
+	relativepath="DevExtremeRepository.rxrep">
+		<codegen
+		classname="DevExtremeRepository"
+		namespace="DevExtreme">
+		</codegen>
+		<rootfolder
+		id="712a75ec-cc07-4ddd-b7b9-5f135302f5a6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
