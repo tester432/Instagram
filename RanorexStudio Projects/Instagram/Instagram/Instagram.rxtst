@@ -3,29 +3,14 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
-			datasource="Suchen"
-			id="0a6cec91-9638-4fbb-99dc-8669701dcd08"
-			name="TestCase">
-			</testcase>
-			<testcase
 			id="376aa6bb-845f-47fc-9694-89aeb6e9f42e"
 			name="Instagram"
 			reportlevel="Info;20">
 			</testcase>
-			<testmodule
-			id="40467ce4-9040-4cbf-a623-662c96078696"
-			name="Follow"
-			ref="1c450e28-e839-43d6-ab98-35b4b3acf948"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Suchen"
-					datasourceid="023db103-8028-4c5b-bcd9-7c3bb1bc5846"
-					variableid="2ec227ed-dbe0-4e8d-9af8-1a70eca8df7d"
-					variablename="Suchen">
-					</var>
-				</databinding>
-			</testmodule>
+			<testcase
+			id="65d73652-4030-49bb-a396-b6c2c8905d5e"
+			name="TestCase">
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -45,6 +30,12 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="a97af50b-aba5-41b7-8da7-1f3dc58ef16a"
+			name="OpenBrowser"
+			ref="0bbc8d2b-46d3-4342-8458-5d750cc1e916"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -54,11 +45,11 @@
 				id="376aa6bb-845f-47fc-9694-89aeb6e9f42e"
 				name="Instagram">
 					<testcase
-					id="0a6cec91-9638-4fbb-99dc-8669701dcd08"
+					id="65d73652-4030-49bb-a396-b6c2c8905d5e"
 					name="TestCase">
 						<testmodule
-						id="40467ce4-9040-4cbf-a623-662c96078696"
-						name="Follow">
+						id="a97af50b-aba5-41b7-8da7-1f3dc58ef16a"
+						name="OpenBrowser">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -108,10 +99,10 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="0a6cec91-9638-4fbb-99dc-8669701dcd08">
+			id="376aa6bb-845f-47fc-9694-89aeb6e9f42e">
 			</testcontainer>
 			<testcontainer
-			id="376aa6bb-845f-47fc-9694-89aeb6e9f42e">
+			id="65d73652-4030-49bb-a396-b6c2c8905d5e">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

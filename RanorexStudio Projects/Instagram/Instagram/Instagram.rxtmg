@@ -1,15 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modulegroupdoc>
-  <testsuiteentryhierarchy>
-    <flatlistofchildren>
-      <modulegroups
-      name="Instagram"
-      id="b91375bd-ebf3-4d8a-a257-1f57ea7a372d"/>
-    </flatlistofchildren>
-    <childhierarchy>
-      <modulegroups
-      name="Instagram"
-      id="b91375bd-ebf3-4d8a-a257-1f57ea7a372d"/>
-    </childhierarchy>
-  </testsuiteentryhierarchy>
+<modulegroupdoc
+rxversion="9.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<simplefolder
+			id="97d85319-b82a-4f4e-a692-2f48e1e67687"
+			name="NewFolder">
+			</simplefolder>
+			<modulegroups
+			id="b91375bd-ebf3-4d8a-a257-1f57ea7a372d"
+			name="Instagram">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="b91375bd-ebf3-4d8a-a257-1f57ea7a372d"
+			name="Instagram">
+				<simplefolder
+				id="97d85319-b82a-4f4e-a692-2f48e1e67687"
+				name="NewFolder">
+				</simplefolder>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
 </modulegroupdoc>
