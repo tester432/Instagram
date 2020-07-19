@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="419e9949-cf79-437a-a235-3eabbcdb1445"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Instagram">
+	</codegen>
+	<variables>
+		<var
+		id="5626d3d6-e8b7-42c4-8e59-41b745b6fa9c"
+		name="Suchen">
+			leandrolevin
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="9457a6f2-2804-44ab-8b2b-13bfec022e97"
+	name="InstagramRepository"
+	relativepath="InstagramRepository.rxrep">
+		<codegen
+		classname="InstagramRepository"
+		namespace="Instagram">
+		</codegen>
+		<rootfolder
+		id="deaff906-203b-4c21-a8dd-a3ae7976901d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
