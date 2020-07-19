@@ -24,29 +24,29 @@ namespace MyTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The GoogleSearch recording.
     /// </summary>
-    [TestModule("8359a867-5919-4676-a134-b74df225f012", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("1dc30916-32d3-4f43-83cf-4175109c3b10", ModuleType.Recording, 1)]
+    public partial class GoogleSearch : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyTestRepository repository.
         /// </summary>
         public static MyTestRepository repo = MyTestRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static GoogleSearch instance = new GoogleSearch();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public GoogleSearch()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static GoogleSearch Instance
         {
             get { return instance; }
         }
@@ -79,6 +79,22 @@ namespace MyTest
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InputTagQ' at 50;13.", repo.ApplicationUnderTest.InputTagQInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.InputTagQ.Click("50;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Hallo' with focus on 'ApplicationUnderTest.InputTagQ'.", repo.ApplicationUnderTest.InputTagQInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.InputTagQ.PressKeys("Hallo");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.InputTagQ'.", repo.ApplicationUnderTest.InputTagQInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.InputTagQ.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Hallo') on item 'ApplicationUnderTest.Hallo'.", repo.ApplicationUnderTest.HalloInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.HalloInfo, "InnerText", "Hallo");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

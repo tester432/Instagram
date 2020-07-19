@@ -85,13 +85,17 @@ namespace MyTest
         [RepositoryFolder("0584e134-6a8f-4d7d-8502-f93861241fec")]
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _inputtagqInfo;
+            RepoItemInfo _halloInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
             /// </summary>
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain='www.ranorex.com']", parentFolder, 30000, null, false, "0584e134-6a8f-4d7d-8502-f93861241fec", "")
+                    base("ApplicationUnderTest", "/dom[@domain='www.google.de']", parentFolder, 30000, null, false, "0584e134-6a8f-4d7d-8502-f93861241fec", "")
             {
+                _inputtagqInfo = new RepoItemInfo(this, "InputTagQ", ".//input[@title='Suche']", 30000, null, "a45fdeaf-3cf9-4b73-a275-6019f97c5a09");
+                _halloInfo = new RepoItemInfo(this, "Hallo", ".//span[@innertext='Hallo']", 30000, null, "970ab529-0d8b-4310-80be-2a16d42fafc0");
             }
 
             /// <summary>
@@ -115,6 +119,54 @@ namespace MyTest
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InputTagQ item.
+            /// </summary>
+            [RepositoryItem("a45fdeaf-3cf9-4b73-a275-6019f97c5a09")]
+            public virtual Ranorex.InputTag InputTagQ
+            {
+                get
+                {
+                    return _inputtagqInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InputTagQ item info.
+            /// </summary>
+            [RepositoryItemInfo("a45fdeaf-3cf9-4b73-a275-6019f97c5a09")]
+            public virtual RepoItemInfo InputTagQInfo
+            {
+                get
+                {
+                    return _inputtagqInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Hallo item.
+            /// </summary>
+            [RepositoryItem("970ab529-0d8b-4310-80be-2a16d42fafc0")]
+            public virtual Ranorex.SpanTag Hallo
+            {
+                get
+                {
+                    return _halloInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Hallo item info.
+            /// </summary>
+            [RepositoryItemInfo("970ab529-0d8b-4310-80be-2a16d42fafc0")]
+            public virtual RepoItemInfo HalloInfo
+            {
+                get
+                {
+                    return _halloInfo;
                 }
             }
         }

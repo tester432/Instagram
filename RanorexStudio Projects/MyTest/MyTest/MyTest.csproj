@@ -137,6 +137,18 @@
       <UserCode>true</UserCode>
       <id>b16f8913-ccb5-4254-b2ff-12673407541f</id>
     </Compile>
+    <Compile Include="GoogleSearch.cs">
+      <BoundTo>dd60570e-3716-47f8-8c23-3cbdb67703ad</BoundTo>
+      <DependentUpon>GoogleSearch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0691a63d-d612-4717-845d-72dfced49cf7</id>
+    </Compile>
+    <Compile Include="GoogleSearch.UserCode.cs">
+      <BoundTo>dd60570e-3716-47f8-8c23-3cbdb67703ad</BoundTo>
+      <DependentUpon>GoogleSearch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccff5702-f3b6-4c54-9551-b00a9342fa5d</id>
+    </Compile>
     <Compile Include="MyTestRepository.cs">
       <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
       <DependentUpon>MyTestRepository.rxrep</DependentUpon>
@@ -158,18 +170,6 @@
     <Compile Include="Program.cs">
       <id>f2fa3660-cc35-4989-a64a-fd6238a8619d</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>dfd09e08-c0b9-4419-aa29-66685e24d690</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>915b2a43-b8bc-4aab-a582-a90537f680db</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>dfd09e08-c0b9-4419-aa29-66685e24d690</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d31554ef-9b0b-44a0-a2fa-8c5f1f2b31f0</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -179,6 +179,11 @@
       <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
       <id>ec1b48f5-7764-419a-a087-20aaa3ae22ff</id>
       <recordtableid>95839a9b-3662-4fc5-8600-e98b9756f57b</recordtableid>
+    </None>
+    <None Include="GoogleSearch.rxrec">
+      <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
+      <id>dd60570e-3716-47f8-8c23-3cbdb67703ad</id>
+      <recordtableid>1dc30916-32d3-4f43-83cf-4175109c3b10</recordtableid>
     </None>
     <None Include="MyTestRepository.rximg">
       <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
@@ -195,11 +200,6 @@
       <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
       <id>480355f8-181a-454d-a472-54379a6a424c</id>
       <recordtableid>9cb6ebe9-f279-4c4b-86e0-37c4bdb732da</recordtableid>
-    </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>a03058f5-2b01-4239-8af8-28771d22f3c9</BoundTo>
-      <id>dfd09e08-c0b9-4419-aa29-66685e24d690</id>
-      <recordtableid>8359a867-5919-4676-a134-b74df225f012</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

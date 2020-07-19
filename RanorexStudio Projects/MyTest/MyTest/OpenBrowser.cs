@@ -79,8 +79,8 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.instagram.com' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.instagram.com", "chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.google.de' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.google.de", "chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

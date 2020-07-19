@@ -1,30 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTestRepository"
-id="f3d9a444-c405-4ad9-bc26-df373965524e">
-  <codegen
-  classname="MyTestRepository"
-  namespace="MyTest"/>
-  <rootfolder
-  name="Root"
-  id="3a2c1244-788f-45c9-8a27-3a5ca63b0b77"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-      <appfolder
-          addcaps="container,webdocument"
-          capname="webdocument"
-          id="0584e134-6a8f-4d7d-8502-f93861241fec"
-          isrooted="True"
-          name="ApplicationUnderTest"
-          searchtimeout="30000ms"
-          usecache="False">
-          <basepath>
-              /dom[@domain='www.ranorex.com']
-          </basepath>
-          <icon>
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+﻿<repository
+id="f3d9a444-c405-4ad9-bc26-df373965524e"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3a2c1244-788f-45c9-8a27-3a5ca63b0b77"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0584e134-6a8f-4d7d-8502-f93861241fec"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a45fdeaf-3cf9-4b73-a275-6019f97c5a09"
+			name="InputTagQ"
+			refimgid="b48e589b-0e83-4f01-86b5-e191bbf5d54d"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.de']//input[@title='Suche']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="970ab529-0d8b-4310-80be-2a16d42fafc0"
+			name="Hallo"
+			refimgid="8468bbee-48b5-460d-9f51-3b84b719fe87"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.de']//span[@innertext='Hallo']
+			</item>
+			<basepath>
+				/dom[@domain='www.google.de']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
 dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
 yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
@@ -37,9 +55,11 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-          </icon>
-      </appfolder>
-      <basepath/>
-  </rootfolder>
-  <variables/>
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

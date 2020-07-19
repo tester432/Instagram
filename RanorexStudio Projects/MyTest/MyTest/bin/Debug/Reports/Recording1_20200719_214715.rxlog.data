@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.65s"
+		durationms="9652"
+		type="root"
+		rid="41ab809445def50"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="saxxo"
+		rxversion="9.3.2.0"
+		host="SAXXO"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="de-DE"
+		screenresolution="5206x1080"
+		timestamp="19.07.2020 21:47:20"
+		timestampiso="2020-07-19T19:47:20"
+		endtime="19.07.2020 21:47:30"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.412"
+			timeRelativeToTestModuleStartTime="00:05.412"
+			timeWallClock="21:47:26"
+			time="00:05.412"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InputTagQ' at 50;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.de']//input[@title='Suche']"
+				itempath=".//input[@title='Suche']"
+				fullname="MyTestRepository.ApplicationUnderTest.InputTagQ"
+				id="a45fdeaf3cf94b73a2756019f97c5a09"
+				timeout="60000"
+				codefile="C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.421"
+			timeRelativeToTestModuleStartTime="00:07.421"
+			timeWallClock="21:47:28"
+			time="00:07.421"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Hallo' with focus on 'ApplicationUnderTest.InputTagQ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.de']//input[@title='Suche']"
+				itempath=".//input[@title='Suche']"
+				fullname="MyTestRepository.ApplicationUnderTest.InputTagQ"
+				id="a45fdeaf3cf94b73a2756019f97c5a09"
+				timeout="60000"
+				codefile="C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.670"
+			timeRelativeToTestModuleStartTime="00:07.670"
+			timeWallClock="21:47:28"
+			time="00:07.670"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'ApplicationUnderTest.InputTagQ'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.de']//input[@title='Suche']"
+				itempath=".//input[@title='Suche']"
+				fullname="MyTestRepository.ApplicationUnderTest.InputTagQ"
+				id="a45fdeaf3cf94b73a2756019f97c5a09"
+				timeout="60000"
+				codefile="C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.944"
+			timeRelativeToTestModuleStartTime="00:07.944"
+			timeWallClock="21:47:28"
+			time="00:07.944"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Hallo') on item 'ApplicationUnderTest.Hallo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.de']//span[@innertext='Hallo']"
+				itempath=".//span[@innertext='Hallo']"
+				fullname="MyTestRepository.ApplicationUnderTest.Hallo"
+				id="970ab5290d8b431080be2a16d42fafc0"
+				timeout="60000"
+				codefile="C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.540"
+			timeRelativeToTestModuleStartTime="00:09.540"
+			timeWallClock="21:47:30"
+			time="00:09.540"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'MyTestRepository.ApplicationUnderTest.Hallo' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.de']//span[@innertext='Hallo']"
+				itempath=".//span[@innertext='Hallo']"
+				fullname="MyTestRepository.ApplicationUnderTest.Hallo"
+				id="970ab5290d8b431080be2a16d42fafc0"
+				timeout="60000"
+				codefile="C:\Users\Kutluhan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>
