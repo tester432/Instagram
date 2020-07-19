@@ -79,6 +79,22 @@ namespace DevExtreme
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DevExtreme.Test.DxButtonContent' at 175;20.", repo.DevExtreme.Test.DxButtonContentInfo, new RecordItemIndex(0));
+            repo.DevExtreme.Test.DxButtonContent.Click("175;20");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DevExtreme.Test.SpanTag10' at 9;11.", repo.DevExtreme.Test.SpanTag10Info, new RecordItemIndex(1));
+            repo.DevExtreme.Test.SpanTag10.Click("9;11");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DevExtreme.Test.DxSchedulerCellSizesHorizontalDxSc' at 21;39.", repo.DevExtreme.Test.DxSchedulerCellSizesHorizontalDxScInfo, new RecordItemIndex(2));
+            repo.DevExtreme.Test.DxSchedulerCellSizesHorizontalDxSc.Click("21;39");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to 'September 2016' on item 'DevExtreme.Test.DxButtonContent'.", repo.DevExtreme.Test.DxButtonContentInfo, new RecordItemIndex(3));
+            repo.DevExtreme.Test.DxButtonContent.Element.SetAttributeValue("TagValue", "September 2016");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -27,7 +27,7 @@ namespace DevExtreme
     public partial class DevExtremeRepository : RepoGenBaseFolder
     {
         static DevExtremeRepository instance = new DevExtremeRepository();
-        DevExtremeRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        DevExtremeRepositoryFolders.DevExtremeAppFolder _devextreme;
 
         /// <summary>
         /// Gets the singleton class instance representing the DevExtremeRepository element repository.
@@ -44,7 +44,7 @@ namespace DevExtreme
         public DevExtremeRepository() 
             : base("DevExtremeRepository", "/", null, 0, false, "712a75ec-cc07-4ddd-b7b9-5f135302f5a6", ".\\RepositoryImages\\DevExtremeRepository712a75ec.rximgres")
         {
-            _applicationundertest = new DevExtremeRepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _devextreme = new DevExtremeRepositoryFolders.DevExtremeAppFolder(this);
         }
 
 #region Variables
@@ -64,12 +64,12 @@ namespace DevExtreme
         }
 
         /// <summary>
-        /// The ApplicationUnderTest folder.
+        /// The DevExtreme folder.
         /// </summary>
-        [RepositoryFolder("0c8f1bf6-1468-4317-b287-05bfed523539")]
-        public virtual DevExtremeRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
+        [RepositoryFolder("72d3d727-5209-450e-ba76-dbe6babfef2a")]
+        public virtual DevExtremeRepositoryFolders.DevExtremeAppFolder DevExtreme
         {
-            get { return _applicationundertest; }
+            get { return _devextreme; }
         }
     }
 
@@ -80,24 +80,26 @@ namespace DevExtreme
     public partial class DevExtremeRepositoryFolders
     {
         /// <summary>
-        /// The ApplicationUnderTestAppFolder folder.
+        /// The DevExtremeAppFolder folder.
         /// </summary>
-        [RepositoryFolder("0c8f1bf6-1468-4317-b287-05bfed523539")]
-        public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("72d3d727-5209-450e-ba76-dbe6babfef2a")]
+        public partial class DevExtremeAppFolder : RepoGenBaseFolder
         {
+            DevExtremeRepositoryFolders.TestFolder _test;
 
             /// <summary>
-            /// Creates a new ApplicationUnderTest  folder.
+            /// Creates a new DevExtreme  folder.
             /// </summary>
-            public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain='www.ranorex.com']", parentFolder, 30000, null, false, "0c8f1bf6-1468-4317-b287-05bfed523539", "")
+            public DevExtremeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("DevExtreme", "/dom[@domain='js.devexpress.com']", parentFolder, 30000, null, false, "72d3d727-5209-450e-ba76-dbe6babfef2a", "")
             {
+                _test = new DevExtremeRepositoryFolders.TestFolder(this);
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("0c8f1bf6-1468-4317-b287-05bfed523539")]
+            [RepositoryItem("72d3d727-5209-450e-ba76-dbe6babfef2a")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -109,12 +111,127 @@ namespace DevExtreme
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("0c8f1bf6-1468-4317-b287-05bfed523539")]
+            [RepositoryItemInfo("72d3d727-5209-450e-ba76-dbe6babfef2a")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Test folder.
+            /// </summary>
+            [RepositoryFolder("d20e4f7b-0be6-4567-b355-020913fbcae3")]
+            public virtual DevExtremeRepositoryFolders.TestFolder Test
+            {
+                get { return _test; }
+            }
+        }
+
+        /// <summary>
+        /// The TestFolder folder.
+        /// </summary>
+        [RepositoryFolder("d20e4f7b-0be6-4567-b355-020913fbcae3")]
+        public partial class TestFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _dxbuttoncontentInfo;
+            RepoItemInfo _dxschedulercellsizeshorizontaldxscInfo;
+            RepoItemInfo _spantag10Info;
+
+            /// <summary>
+            /// Creates a new Test  folder.
+            /// </summary>
+            public TestFolder(RepoGenBaseFolder parentFolder) :
+                    base("Test", "", parentFolder, 0, null, false, "d20e4f7b-0be6-4567-b355-020913fbcae3", "")
+            {
+                _dxbuttoncontentInfo = new RepoItemInfo(this, "DxButtonContent", ".//?/?/?/?/?/?/?/?/?/span[@innertext='August 2016']", 30000, null, "5239d7fd-058c-49e1-8426-c1ba26f6ad58");
+                _dxschedulercellsizeshorizontaldxscInfo = new RepoItemInfo(this, "DxSchedulerCellSizesHorizontalDxSc", ".//iframe[#'demoFrame']/body/div/div/div[2]/div[5]/div/div/div[1]/table[2]/tbody/tr[1]/td[4]", 30000, null, "77d51c39-4b57-4f6a-b87e-db87b9197398");
+                _spantag10Info = new RepoItemInfo(this, "SpanTag10", ".//iframe[#'demoFrame']/body/div[2]/div/div[2]/div/div[1]//table/tbody/tr[3]/td[3]/span[@innertext='10']", 30000, null, "ec7277fe-9b94-4e6a-8f71-0a8b83949441");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d20e4f7b-0be6-4567-b355-020913fbcae3")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DxButtonContent item.
+            /// </summary>
+            [RepositoryItem("5239d7fd-058c-49e1-8426-c1ba26f6ad58")]
+            public virtual Ranorex.SpanTag DxButtonContent
+            {
+                get
+                {
+                    return _dxbuttoncontentInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DxButtonContent item info.
+            /// </summary>
+            [RepositoryItemInfo("5239d7fd-058c-49e1-8426-c1ba26f6ad58")]
+            public virtual RepoItemInfo DxButtonContentInfo
+            {
+                get
+                {
+                    return _dxbuttoncontentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DxSchedulerCellSizesHorizontalDxSc item.
+            /// </summary>
+            [RepositoryItem("77d51c39-4b57-4f6a-b87e-db87b9197398")]
+            public virtual Ranorex.TdTag DxSchedulerCellSizesHorizontalDxSc
+            {
+                get
+                {
+                    return _dxschedulercellsizeshorizontaldxscInfo.CreateAdapter<Ranorex.TdTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DxSchedulerCellSizesHorizontalDxSc item info.
+            /// </summary>
+            [RepositoryItemInfo("77d51c39-4b57-4f6a-b87e-db87b9197398")]
+            public virtual RepoItemInfo DxSchedulerCellSizesHorizontalDxScInfo
+            {
+                get
+                {
+                    return _dxschedulercellsizeshorizontaldxscInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SpanTag10 item.
+            /// </summary>
+            [RepositoryItem("ec7277fe-9b94-4e6a-8f71-0a8b83949441")]
+            public virtual Ranorex.SpanTag SpanTag10
+            {
+                get
+                {
+                    return _spantag10Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SpanTag10 item info.
+            /// </summary>
+            [RepositoryItemInfo("ec7277fe-9b94-4e6a-8f71-0a8b83949441")]
+            public virtual RepoItemInfo SpanTag10Info
+            {
+                get
+                {
+                    return _spantag10Info;
                 }
             }
         }

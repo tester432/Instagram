@@ -125,6 +125,9 @@
     <Compile Include="AssemblyInfo.cs">
       <id>1a3c859e-a790-4f5f-a404-a62703626d5b</id>
     </Compile>
+    <Compile Include="calenderDv.cs">
+      <id>4d023762-5103-4d35-bced-d372264510aa</id>
+    </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>8f2c7760-a267-4a2b-95f3-51e34f839d39</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
